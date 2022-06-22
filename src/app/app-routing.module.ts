@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { MarksComponent } from './marks/marks.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 
+
 const routes: Routes = [
   //{ path: 'app-component', component: AppComponent },
   {path:'', component:NavBarComponent},

@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MarksComponent } from './marks/marks.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -12,10 +14,12 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     AppComponent,
     MarksComponent,
     NavBarComponent,
+    
       ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

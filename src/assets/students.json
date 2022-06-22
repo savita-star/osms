@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "firstName": "Test User1",
+      "lastname": "LastName1",
+      "marks": 99,
+      "attendence": true
+    },
+    {
+      "id": 2,
+      "firstName": "Test User2",
+      "lastname": "LastName2",
+      "marks": 90,
+      "attendence": true
+    },
+    {
+      "id": 3,
+      "firstName": "Test User3",
+      "lastname": "LastName3",
+      "marks": 85,
+      "attendence": true
+    },
+    {
+      "id": 4,
+      "firstName": "Test User4",
+      "lastname": "LastName4",
+      "marks": 70,
+      "attendence": true
+    },
+    {
+      "id": 5,
+      "firstName": "Test User5",
+      "lastname": "LastName5",
+      "marks": 50,
+      "attendence": false
+    }
+  ]
